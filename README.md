@@ -1,6 +1,5 @@
 # Apirro MCP Server
 
-[![smithery badge](https://smithery.ai/badge/apirro)](https://smithery.ai/server/apirro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Public Model Context Protocol (MCP) server for agentic commerce and website AI discoverability.**
