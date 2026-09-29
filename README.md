@@ -95,7 +95,6 @@ Any client supporting remote MCP over Streamable HTTP can connect directly to th
 
 ## Notes
 
-- All tools are **read-only and public** — no Apirro account data is exposed.
 - The server is listed on [Glama](https://glama.ai/mcp/servers) and [Smithery](https://smithery.ai).
 </arg_value>````
 
@@ -103,10 +102,5 @@ Any client supporting remote MCP over Streamable HTTP can connect directly to th
 
 MIT © [Apirro](https://apirro.ai)
 
-
-Two small things:
-
-1. **Don't touch `glama.json`** — that file is already in your repo from the ownership claim; leave it exactly as it is. The README goes in a separate file.
-2. If GitHub asks for a commit message when you commit, just type `Update README` and confirm.
 
 Once committed, send me your GitHub username and I can prep the one-click submission to the official `awesome-mcp-servers` list next.
