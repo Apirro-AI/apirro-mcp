@@ -1,0 +1,31 @@
+{
+  "name": "@apirro/mcp",
+  "version": "0.2.0",
+  "description": "Official Apirro Model Context Protocol (MCP) server for agentic commerce readiness, protocols, and discovery.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "apirro-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.13.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agentic-commerce",
+    "agent-link",
+    "ecommerce"
+  ],
+  "author": "Apirro (hello@apirro.ai)",
+  "license": "MIT"
+}
