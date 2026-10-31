@@ -4,7 +4,7 @@ import { z } from "zod";
 
 const server = new McpServer({
   name: "apirro-mcp",
-  version: "0.2.0",
+  version: "0.3.0",
 });
 
 // 1. scan_agent_readiness
@@ -210,25 +210,7 @@ server.tool(
   }
 );
 
-// 6. get_apirro_pricing
-server.tool(
-  "get_apirro_pricing",
-  "Current pricing tiers for Apirro: Free Trial, Discovery, Activate, and Enterprise.",
-  {},
-  async () => {
-    const text = `APIRRO PRICING TIERS:
-
-1. Free Trial ($0 / 7 days): Full Discovery feature access, multi-LLM visibility scoring.
-2. Discovery ($299 / month): AI Discovery score, prompt intelligence, competitor benchmarking, site audits.
-3. Activate (from $999 / month): Full agentic commerce infrastructure, Agent Link™ activation, hosted MCP/UCP/AP2 endpoints, 1 Storefront Agent.
-4. Enterprise (Custom): Unlimited agents, bundled catalog scoring, dedicated SLA, white-label deployment.
-
-View details: https://apirro.ai/pricing`;
-    return { content: [{ type: "text", text }] };
-  }
-);
-
-// 7. search_apirro_resources
+// 6. search_apirro_resources
 server.tool(
   "search_apirro_resources",
   "Search published Apirro resources, guides, and blog posts on agentic commerce.",

@@ -1,6 +1,6 @@
 {
   "name": "@apirro/mcp",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Official Apirro Model Context Protocol (MCP) server for agentic commerce readiness, protocols, and discovery.",
   "type": "module",
   "main": "dist/index.js",

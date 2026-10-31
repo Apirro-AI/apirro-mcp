@@ -1,6 +1,6 @@
 # Apirro MCP Server
 
-**Infrastructure layer for agentic commerce.** Scan any website for AI-agent readiness, connect to agentic commerce protocols (MCP, UCP, AP2, GEO/AEO), and explore Apirro's knowledge base — directly from your AI assistant.
+**Agentic Commerce Infrastructure.** Scan any website for AI-agent readiness, connect to agentic commerce protocols (MCP, UCP, AP2, GEO/AEO), and explore Apirro's knowledge base — directly from your AI assistant.
 
 [![Website](https://img.shields.io/badge/website-apirro.ai-black)](https://apirro.ai)
 [![MCP Endpoint](https://img.shields.io/badge/MCP-apirro.ai%2Fapi%2Fpublic%2Fmcp-blue)](https://apirro.ai/api/public/mcp)
@@ -9,7 +9,7 @@
 
 ## What is this?
 
-Apirro helps brands become **discoverable, understandable, transactable and measured** for AI shopping agents (ChatGPT, Claude, Gemini, Perplexity, Copilot and autonomous agents). This MCP server exposes Apirro's core intelligence as **7 public, read-only tools** — no login, no API key, no setup.
+Apirro helps brands become **discoverable, understandable, transactable and measured** for AI shopping agents (ChatGPT, Claude, Gemini, Perplexity, Copilot and autonomous agents). This MCP server exposes Apirro's core intelligence as **6 public, read-only tools** — no login, no API key, no setup.
 
 ## Quick start
 
@@ -77,13 +77,12 @@ Any client supporting remote MCP over Streamable HTTP can connect directly to th
 | `get_agent_link_details` | Agent Link™ — the single integration that connects a merchant's catalogue, inventory and checkout to every major AI agent through one connection. |
 | `get_agentic_commerce_glossary` | Definitions for MCP, UCP, AP2, GEO, AEO, Agent Link™ and other agentic commerce terms. |
 | `search_apirro_resources` | Search Apirro's published guides, blog posts, how-to articles and FAQs — with direct links. |
-| `get_apirro_pricing` | Current Apirro plans, what each tier includes, and links to get started. |
 
 ## Example prompts
 
 - *"Scan nike.com and tell me if AI shopping agents can read their products."*
 - *"What is AP2 and why does an ecommerce store need an agent-payments manifest?"*
-- *"How does Apirro connect to every agentic commerce protocol, and what does it cost?"*
+- *"How does Apirro connect to every agentic commerce protocol, and what does Agent Link do for a store?"*
 
 ## Links
 
@@ -95,12 +94,8 @@ Any client supporting remote MCP over Streamable HTTP can connect directly to th
 
 ## Notes
 
-- The server is listed on [Glama](https://glama.ai/mcp/servers) and [Smithery](https://smithery.ai).
-</arg_value>````
+- The server is listed on [Glama](https://glama.ai/mcp/servers/Apirro-AI/apirro-mcp).
 
 ## License
 
 MIT © [Apirro](https://apirro.ai)
-
-
-Once committed, send me your GitHub username and I can prep the one-click submission to the official `awesome-mcp-servers` list next.
